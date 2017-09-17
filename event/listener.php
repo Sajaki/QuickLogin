@@ -13,7 +13,7 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 class listener implements EventSubscriberInterface
 {
-	/** @var \phpbb\auth\auth */
+	/* @var \phpbb\auth\provider_collection */
 	protected $auth_provider_collection;
 
 	/** @var \phpbb\config\config */
