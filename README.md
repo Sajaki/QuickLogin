@@ -4,6 +4,7 @@ Quick Login for phpBB 3.2
 Extension for phpBB 3.2 that adds a simple quick login popup lightbox using JavaScript.
 
 ![Screenshot](screenshot.png)
+![Screenshot](screenshot-pbwow3.png)
 
 #### Version
 v1.1.1
