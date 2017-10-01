@@ -6,14 +6,14 @@ Extension for phpBB 3.2 that adds a simple quick login popup lightbox using Java
 ![Screenshot](screenshot.png)
 
 #### Version
-v1.1.0
+v1.1.1
 [![Build Status](https://api.travis-ci.org/Sajaki/QuickLogin.svg)](https://travis-ci.org/Sajaki/QuickLogin)
 
 #### Support
 - [Support forum] (http://www.avathar.be/bbdkp/viewforum.php?f=65)
 
 ## Features
-- Just a simple lightbox popup for quick login actions.
+- A simple lightbox popup for quick login actions.
 - Changes the behaviour of the normal login button in the header.
 - Only activates on pages where there is no normal login form (not when trying to access the UCP for example).
 
@@ -22,9 +22,11 @@ v1.1.0
 
 #### Languages supported
 - No language files included/necessary
+- for pbWoW3, en, es, fr, de, ru are supported. 
 
-#### To do list
-- Since JS is required, we might use it position the popup better. The current method uses only CSS, but that has it's limitations.
+#### Styles supported
+- Prosilver derived styles
+- pbWoW3.2 
 
 ## Installation
 1. [Download the latest release](https://github.com/Sajaki/QuickLogin/releases) and unzip it.
@@ -41,3 +43,4 @@ v1.1.0
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
 
 © 2015 - PayBas
+© 2017 - Sajaki

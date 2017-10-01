@@ -3,8 +3,8 @@
     "type": "phpbb-extension",
     "description": "Adds a simple quick login popup lightbox using JavaScript",
     "homepage": "https://github.com/Sajaki/QuickLogin",
-    "version": "1.1.0",
-    "time": "2017-09-17",
+    "version": "1.1.1",
+    "time": "2017-10-01",
     "license": "GPL-2.0",
     "authors": [
         {

@@ -1,0 +1,158 @@
+/* Quick-login
+--------------------------------------------- */
+
+.headerspace {
+	display: none;
+}
+
+#quick-login-bg {
+	display: none;
+	position: fixed;
+	background: #000000;
+	opacity: 0.7;
+	/*filter: alpha(opacity=70);*/
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	z-index: 49;
+}
+
+#quick-login-panel {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -201px;
+	padding: 0;
+	width: 400px;
+	background: #1B1B1B url("./images/poll-bg.jpg") repeat-x 50% 0;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 5px solid #333;
+	border-radius: 3px;
+	z-index: 50;
+}
+
+#quick-login-panel h3 {
+	text-align: center;
+	margin-top:10px;
+}
+
+#quick-login-panel .inner {
+	background: url("./images/poll-left.gif") no-repeat 0 0;
+	border: 1px solid #000;
+	margin:0;
+}
+
+#quick-login-panel .inner .content {
+	background: url("./images/poll-right.gif") no-repeat 100% 0;
+	padding: 10px 15px 10px 15px;
+	border: 1px solid #575757;
+	overflow: inherit;
+	position: relative;
+}
+
+#quick-login-panel hr {
+	margin: 10px 0;
+}
+
+fieldset.quick-login {
+	margin-top: 5px;
+}
+
+fieldset.quick-login label {
+	white-space: nowrap;
+	padding-right: 5px;
+	font-size: 1em;
+}
+
+fieldset.quick-login input.inputbox {
+	margin: 13px 0 0 32px;
+	width: 171px;
+	height: 18px;
+	border-radius: 2px;
+	font-size: 1.1em;
+	background-color: #040d1a;
+	color: #CCC;
+	padding:2px;
+	cursor: text;
+}
+
+#quick-login-panel .ql-username {
+	margin: 20px 0;
+}
+
+#quick-login-panel .ql-password {
+	margin: 20px 0;
+}
+
+#quick-login-panel .ql-options {
+	text-align: center;
+	margin: 0px;
+}
+
+#quick-login-panel .ql-username div,
+#quick-login-panel .ql-password div {
+	background: url("./images/options-account-bg.gif") no-repeat 50% 100%;
+	width: 241px;
+	height: 49px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#quick-login-panel .ql-username div label,
+#quick-login-panel .ql-password div label {
+	height: 20px;
+	width: 200px;
+	position: absolute;
+	top: -6px;
+	left: -3px;
+}
+
+/* checkboxes */
+#quick-login-panel .ql-options label {
+	display: block;
+	margin-bottom: 15px;
+	padding:0;
+}
+
+#quick-login-panel .ql-options span {
+	vertical-align: middle;
+}
+
+#quick-login-panel .ql-oauth {
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+
+#quick-login-panel .close {
+	position: absolute;
+	right: -8px;
+	top: -3px;
+	width: 12px;
+	height: 12px;
+	background: transparent url("./images/close.png") no-repeat 0 0;
+	opacity: 0.4;
+}
+
+#quick-login-panel .close:hover {
+	opacity: 0.8;
+}
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px)
+{
+	#quick-login-panel {
+		width: 320px;
+	}
+}
+
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px)
+{
+	#quick-login-panel {
+		width: auto;
+	}
+}
