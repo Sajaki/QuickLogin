@@ -3,20 +3,20 @@ Quick Login for phpBB 3.2
 
 Extension for phpBB 3.2 that adds a simple quick login popup lightbox using JavaScript.
 
-![Screenshot](screenshot.png)
-![Screenshot](screenshot-pbwow3.png)
-
 #### Version
 v1.1.1
 [![Build Status](https://api.travis-ci.org/Sajaki/QuickLogin.svg)](https://travis-ci.org/Sajaki/QuickLogin)
 
 #### Support
-- [Support forum] (http://www.avathar.be/bbdkp/viewforum.php?f=65)
+- [Support forum](http://www.avathar.be/forum/viewforum.php?f=65)
 
 ## Features
 - A simple lightbox popup for quick login actions.
 - Changes the behaviour of the normal login button in the header.
 - Only activates on pages where there is no normal login form (not when trying to access the UCP for example).
+
+![Screenshot](screenshot.png)
+![Screenshot](screenshot-pbwow3.png)
 
 #### Requirements
 - phpBB 3.2.0 or higher
