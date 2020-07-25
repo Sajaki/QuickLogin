@@ -3,9 +3,9 @@
     "type": "phpbb-extension",
     "description": "Adds a simple quick login popup lightbox using JavaScript",
     "homepage": "https://github.com/Sajaki/QuickLogin",
-    "version": "1.1.0",
-    "time": "2017-09-17",
-    "license": "GPL-2.0",
+    "version": "1.1.3",
+    "time": "2020-07-25",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "PayBas",
@@ -16,12 +16,13 @@
         {
             "name": "Sajaki",
             "email": "sajaki@avathar.be",
-            "homepage": "http://www.avathar.be",
+            "homepage": "https://www.avathar.be",
             "role": "developer"
         }
     ],
     "require": {
         "php": ">=5.4.0",
+        "phpbb/phpbb": ">=3.2.0",
         "composer/installers": "~1.0"
     },
     "require-dev": {

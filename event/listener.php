@@ -65,7 +65,7 @@ class listener implements EventSubscriberInterface
 					{
 
 						$oauth_provider = str_replace('auth.provider.oauth.service.', '', $oauth_provider);
-						$redirect_url = './ucp.php?mode=login&login=external&oauth_service='.$oauth_provider;
+						$redirect_url = append_sid($this->root_path . './ucp.'.$this->phpEx.'?mode=login&amp;login=external&amp;oauth_service='.$oauth_provider);
 						$block_vars['REDIRECT_URL'] = $redirect_url;
 						$this->template->assign_block_vars('ql_' . $auth_provider_data['BLOCK_VAR_NAME'], $block_vars);
 
