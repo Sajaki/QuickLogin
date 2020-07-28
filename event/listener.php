@@ -40,7 +40,7 @@ class listener implements EventSubscriberInterface
 
 	/** @var string PHP extension */
 	protected $phpEx;
-	
+
 	/**
 	 * listener constructor.
 	 *
